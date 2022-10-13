@@ -78,26 +78,30 @@ body {
   font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
+}
 
 /*bottom on the banner*/
-}
+
 button {
-  border-radius: 10px; /*does not work*/
+  border-radius: 30px; /*doen't work*/
   background-color: #f1c40f;
   min-width: 160px;
   cursor: pointer;
   border: none;
   text-align: center;
   text-decoration: none;
+
 }
 button .btn {
   color: #fff;
+  font-weight: 700;
 }
 button:hover {
   background-color:#fff;
 }
 button .btn:hover {
-  color: #f1c40f; 
+  color: #f1c40f;
+
 }
 
 
@@ -106,6 +110,7 @@ button .btn:hover {
 /*banner*/
 .hero {
     height: 100vh;
+    max-height: 700px;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -113,6 +118,22 @@ button .btn:hover {
 }
 
 
+
+/*!!!!Section*/
+.section-title {
+  font-family:'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-sub-title {
+  font-family:'Dancing Script';
+  font-size: 16px;
+  color:dimgray;
+  text-align: center;
+}
 
 /*
   .site-navbar.transparent {
@@ -122,9 +143,6 @@ button .btn:hover {
     top: 0;
     left: 0;
     width: 100%; }
-
-
-
   body:before {
     content: "";
     position: absolute;
@@ -142,22 +160,18 @@ button .btn:hover {
   body.offcanvas-menu:before {
     opacity: 1;
     visibility: visible; }
-
 p {
   color: #b3b3b3;
   font-weight: 300; }
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a, a:hover {
     text-decoration: none !important; }
-
       /*active navigation
       .site-navbar .site-navigation .site-menu .active > a span {
         background: #fff;
@@ -168,7 +182,6 @@ a {
       } */
 
   /*
-
 .site-mobile-menu {
   width: 300px;
   position: fixed;
@@ -308,8 +321,4 @@ a {
         width: auto; }
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
-
-
 */
-
-
