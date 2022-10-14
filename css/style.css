@@ -115,11 +115,12 @@ button .btn:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
+    cursor: pointer;
 }
 
 
 
-/*!!!!Section*/
+/*!!!!section Services*/
 .section-title {
   font-family:'Open Sans', sans-serif;
   font-size: 40px;
@@ -128,6 +129,7 @@ button .btn:hover {
   margin-top: 20px;
   text-transform: uppercase;
 }
+
 
 .section-sub-title {
   font-family:'Dancing Script';
@@ -141,6 +143,13 @@ button .btn:hover {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
+}
+
+h4 a {
+  color: black; 
+}
+h4 a:hover {
+  color: #f1c40f;
 }
 .text {
   font-family:'Open Sans', sans-serif;
@@ -156,22 +165,61 @@ button .btn:hover {
   width: 65px;
   height: 65px;
   border-style: solid;
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
- 
+.icon:hover {
+  margin: auto;
+  font-size: 35px;
+  color: black;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
 /*!!!!Section Our portfolio !!!!*/
+
+
 .card-body .section-sub-title {
   font-size: 16px;
 }
 
 .card-img-top {
+    height: 250px;
+    object-fit: cover; 
+}
 
+/*Footer*/
+.icon-footer {
+  margin: auto;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-style: solid;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-footer:hover {
+  margin: auto;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-style: solid;
+  background-color: #f1c40f;;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*
